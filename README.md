@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/alexcwatt/ruby-vonage/badges/gpa.svg)](https://codeclimate.com/github/alexcwatt/ruby-vonage)
+
 # ruby-vonage
 
 This is a Ruby client for the Vonage Business API, version 1.5.
@@ -21,7 +23,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-client = Vonage::Client("myusername", "mypassword")
+client = Vonage::Client.new("myusername", "mypassword")
 
 # Manual authentication is optional.
 # (Client automatically authenticates before other API calls.)
